@@ -71,6 +71,7 @@ define('ERROR_PAGER_NOT_IMPLEMENTED',     -5);
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
  * @link      http://pear.php.net/package/Pager
  */
+#[AllowDynamicProperties]
 class Pager_Common
 {
     // {{{ class vars
